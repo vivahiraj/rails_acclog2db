@@ -1,3 +1,29 @@
 = RailsAcclog2db
 
+* https://github.com/vivahiraj/rails_acclog2db
+
+== DESCRIPTION:
+
+rails access logs save to database.
+
+== QUICK START
+
+To get started with a new Rails project
+
+Added to Gemfile
+
+  gem 'rails_acclog2db'
+
+Run the following commands
+
+  bundle install
+  rails g rails_acclog2db:install
+  bundle exec rake db:migrate
+
+Add the following line to controller. ex app/controllers/application_controller.rb 
+
+  access_logging
+
+== LICENSE:
+
 This project rocks and uses MIT-LICENSE.
